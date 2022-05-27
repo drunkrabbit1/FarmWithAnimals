@@ -1,0 +1,26 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.plus-button {
+    display:inline-block;
+    width:50px;
+    height:50px;
+
+    background:
+        linear-gradient(#fff,#fff),
+        linear-gradient(#fff,#fff),
+        #3E2723;;
+    background-position:center;
+    background-size: 40% 2px,2px 40%; /*thickness = 2px, length = 50% (25px)*/
+    background-repeat:no-repeat;
+}
+
+.plus-button-radius {
+    border-radius:50%;
+}
+
+.bw {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
